@@ -30,5 +30,8 @@ class WiFiNicListener(StoppableThread):
         self.interface = interface
 
     def run(self):
+        handler = HandleDot11()
         while not self.stopped:
+
             sniff(iface=self.interface, prn=print)
+            # sniff(iface=self.interface, prn=handler)
