@@ -1,0 +1,5 @@
+arrow==0.10.0
+click==6.7
+pyserial==3.4
+scapy-python3==0.21
+tabulate==0.7.7
